@@ -65,9 +65,22 @@ body {
         letter-spacing: 0.64px;
 }
 
+.filter-buttonone {
+        background-color: var(--primary-brand-color);
+        color: var(--white-background-color);
+        font-family: inherit;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.64px;
+}
+
 .filter-button:hover,
-.filter-button:focus {
+.filter-button:focus,
+.filter-buttonone:hover,
+.filter-buttonone:focus {
     background-color: var(--pressed-state-color);
+    color: var(--white-background-color);
 }
 
 .cursor {
