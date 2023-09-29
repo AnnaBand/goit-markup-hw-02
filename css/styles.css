@@ -21,24 +21,27 @@ body {
 
 .filter-button {
     border-radius: 4px;
-    background: var(--IRIS, #4D5AE5);
+    background-color: var(--primary-brand-color);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    /* Button Text */
+        color: var(--white-background-color);
+        font-family: inherit;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        letter-spacing: 0.64px;
 }
 
 .filter-button:hover {
-    border-radius: 4px;
-    background: var(--OCEAN, #404BBF);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: var(--pressed-state-color);
 }
 
 .logo {
-    color: var(--IRIS, #4D5AE5);
+    color: var(--primary-brand-color);
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
-    line-height: 21px;
-    /* 116.667% */
+    line-height: 21px; /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
