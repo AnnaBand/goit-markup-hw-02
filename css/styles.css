@@ -27,22 +27,19 @@ body {
         letter-spacing: 0.32px;
 }
 
-.nav-links .link:active,
-.nav-links .link:hover,
-.nav-links .link:focus {
-    border-radius: 2px;
-    color: var(--pressed-state-color);
-}
-
 .address-links .link {
     color: var(--text-color);
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
 
-.address-links .link:hover {
+.address-links .link:hover,
+.address-links .link:focus,
+.address-links .link:active,
+.nav-links .link:hover,
+.nav-links .link:focus,
+.nav-links .link:active {
     color: var(--pressed-state-color)
 }
 
@@ -55,10 +52,8 @@ body {
 }
 
 .filter-button {
-    border-radius: 4px;
     background-color: var(--primary-brand-color);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    /* Button Text */
         color: var(--white-background-color);
         font-family: inherit;
         font-size: 16px;
@@ -69,6 +64,10 @@ body {
 
 .filter-button:hover {
     background-color: var(--pressed-state-color);
+}
+
+.cursor {
+    cursor: pointer;
 }
 
 .logo {
@@ -126,15 +125,17 @@ body {
 
 .description {
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
+}
+
+.card-background {
+    background-color: var(--white-background-color);
 }
 
 .footer-description {
     color: var(--light-color);
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
