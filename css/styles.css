@@ -56,7 +56,7 @@ body {
 }
 
 .filter-button {
-        background-color: var(--light-color);
+    background-color: var(--light-color);
         color: var(--primary-brand-color);
         font-family: inherit;
         font-size: 16px;
@@ -66,7 +66,7 @@ body {
 }
 
 .filter-buttonone {
-        background-color: var(--primary-brand-color);
+    background-color: var(--primary-brand-color);
         color: var(--white-background-color);
         font-family: inherit;
         font-size: 16px;
